@@ -1,0 +1,33 @@
+git add 파일이름
+기록할 파일 고르기(스테이징한다)
+staging area
+
+git restore --staged 파일이름
+스테이징 취소
+
+git commit -m '내용'
+골라놓은 파일 기록저장소로 옮기기
+repository(저장소)
+
+git add 파일이름1 파일이름2  
+여러파일 스테이징
+
+git add .
+모든파일 스테이징
+
+git status
+상태창 열기
+
+git log --all --oneline
+commit 내역 조회
+
+git diff
+최근 commit vs 현재파일 차이점보여줌
+j/k로 스크롤 조작 q는 종료
+
+git difftool
+h/j/k/l 키 방향
+:q / :qa 종료
+
+git difftool 커밋아이디
+현재파일vs특정커밋 비교가능
